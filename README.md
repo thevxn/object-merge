@@ -23,7 +23,7 @@ const object2 = {
     key: 'value',
     baz: [4,5,6],
     nestedObject: {
-        also: 'this value overrides the one from object1 due to this object having priority'
+        also: 'this value overrides the one from object1 due to this object having priority',
         anotherKey: 'anotherValue'
     }
 }
