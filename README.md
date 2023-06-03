@@ -21,7 +21,7 @@ const object1 = {
 
 const object2 = {
     key: 'value',
-    arrayToMerge: [4,5,6],
+    baz: [4,5,6],
     nestedObject: {
         also: 'this value overrides the one from object1 due to this object having priority'
         anotherKey: 'anotherValue'
