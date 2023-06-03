@@ -1,6 +1,6 @@
 {
   "name": "@savla-dev/object-merge",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A utility for deeply merging two JS/TS objects into one.",
   "repository": "https://github.com/savla-dev/object-merge",
   "main": "dist/merge.js",
