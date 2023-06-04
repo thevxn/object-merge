@@ -6,8 +6,8 @@
  * @param {Record<any, any>} rightObject Specifies the right object.
  * @param {Object} options
  * @param {string} options.priorityObject Specifies the object to take priority during merging and overriding values at identical keys.
- * @param {Object} options.mergeArrays Specifies whether arrays should be merged or overriden by the array from the priorityObject.
- * @param {Object} options.useStructuredClone Specifies whether to use the structuredClone() function to clone the object that is not priorityObject. True by default. If set to false, the function will mutate the object not set as priorityObject.
+ * @param {boolean} options.mergeArrays Specifies whether arrays should be merged or overriden by the array from the priorityObject.
+ * @param {boolean} options.useStructuredClone Specifies whether to use the structuredClone() function to clone the object that is not priorityObject. True by default. If set to false, the function will mutate the object not set as priorityObject.
  * @returns {Record<any, any>}
  */
 
