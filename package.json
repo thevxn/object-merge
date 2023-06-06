@@ -19,6 +19,7 @@
     "npm": ">=8"
   },
   "scripts": {
+    "prepublishOnly": "npm run build",
     "build": "tsc && npm run lint",
     "dev": "tsc --watch",
     "lint": "eslint . --ext .ts,.js,.json --fix --ignore-path .eslintignore"
