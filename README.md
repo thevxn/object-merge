@@ -45,3 +45,15 @@ const resultingObject = {
   key: 'value'
 }
 ```
+
+## Options
+
+- priorityObject
+  - Specifies the object to take priority during merging and overriding values at identical keys.
+  - `"left" | "right"`
+- mergeArrays
+  - Specifies whether arrays should be merged or overriden by the array from the priorityObject. True by default.
+  - `boolean`
+- useStructuredClone
+  - Specifies whether to use the structuredClone() function to clone the object that is not priorityObject. True by default. If set to false, the `merge()` function will mutate the object not set as priorityObject.
+  - `boolean`
