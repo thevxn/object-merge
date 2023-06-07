@@ -4,7 +4,9 @@ Small, fast, simple and 0 dependency utility for merging two objects.
 
 ## Install
 
-`npm i @savla-dev/object-merge`
+```
+npm i @savla-dev/object-merge
+```
 
 ## Usage
 
