@@ -9,7 +9,7 @@ Small, fast, simple and 0 dependency utility for merging two objects.
 ## Usage
 
 ```ts
-import { merge } from "@savla-dev/object-merge";
+import { merge } from '@savla-dev/object-merge'
 
 const object1 = {
     foo: 'bar',
