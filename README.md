@@ -4,7 +4,7 @@ Small, fast, simple and 0 dependency utility for merging two objects.
 
 ## Install
 
-```
+```bash
 npm i @savla-dev/object-merge
 ```
 
@@ -14,20 +14,20 @@ npm i @savla-dev/object-merge
 import { merge } from '@savla-dev/object-merge'
 
 const object1 = {
-    foo: 'bar',
-    baz: [1, 2 ,3],
-    nestedObject: {
-        also: 'works'
-    }
+  foo: 'bar',
+  baz: [1, 2, 3],
+  nestedObject: {
+    also: 'works'
+  }
 }
 
 const object2 = {
-    key: 'value',
-    baz: [4,5,6],
-    nestedObject: {
-        also: 'this value overrides the one from object1 due to this object having priority',
-        anotherKey: 'anotherValue'
-    }
+  key: 'value',
+  baz: [4, 5, 6],
+  nestedObject: {
+    also: 'this value overrides the one from object1 due to this object having priority',
+    anotherKey: 'anotherValue'
+  }
 }
 
 // Returns the resultingObject below
@@ -39,7 +39,7 @@ merge(object1, object2, {
 
 const resultingObject = {
   foo: 'bar',
-  baz: [ 1, 2, 3, 4, 5, 6 ],
+  baz: [1, 2, 3, 4, 5, 6],
   nestedObject: {
     also: 'this value overrides the one from object1 due to this object having priority',
     anotherKey: 'anotherValue'
